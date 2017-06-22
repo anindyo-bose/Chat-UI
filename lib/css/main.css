@@ -1,0 +1,148 @@
+[class*="fontawesome-"]:before {
+  font-family: 'Slabo 27px', serif;
+}
+
+html,
+body {
+  height: 100%;
+font-family: 'Slabo27pxRegular_1';
+}
+
+body {
+  flex-direction: column;
+  background-color: #d5f9fd;
+}
+
+body,
+header,
+.msg,
+.toolbar,
+form {
+  display: flex;
+}
+
+header,
+.messages,
+span {
+  padding: 8px;
+}
+
+header {
+  background-color: #374455;
+  color: white;
+  padding-right: 0;
+  line-height: 8px;
+}
+
+
+
+
+.messages,
+input {
+  background-color: lightblue;
+}
+
+input {
+  padding-left: 6px;
+  border: none;
+  color: black;
+  flex: 1;
+}
+
+.msg {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+
+
+span {
+  border-radius: 6px;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  max-width: 100%;
+}
+
+.msg--me span::after,
+.msg--u span::before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+}
+
+.msg--me span {
+  background-color: white;
+}
+
+.msg--me span::after {
+  border: 8px solid white;
+  border-color: white transparent transparent white;
+  top: 4px;
+  right: -16px;
+}
+
+.msg--u span {
+  background-color: #feffc1;
+  margin-left: 16px;
+}
+
+.msg--u span::before {
+  border: 8px solid #feffc1;
+  border-color: #feffc1 #feffc1 transparent transparent;
+  top: 4px;
+  left: -16px;
+}
+
+form {
+  background-color: #727b80;
+  padding: 1px;
+}
+
+
+.messages {
+  flex: 1;
+  overflow: auto;
+  height: 300px;
+}
+
+.msg--me {
+  justify-content: flex-end;
+}
+
+.msg--me span {
+  order: -16px;
+  margin-right: 16px;
+}
+
+.msg-send {
+  padding: 5px;
+}
+
+.pad {
+  padding: 0px;
+  margin: 0px;
+}
+#idd{
+  width: 70%;
+}
+li{
+  padding: 10px;
+  display: block;
+  background: lightgreen;
+  margin:10px;
+  text-align: center;
+  border-radius: 8px;
+}
+.col-md-4{
+  background: lightblue;
+
+}
+
+.head{
+  text-align: center;
+  border-radius: 10px;
+  background: #43dbde;
+}

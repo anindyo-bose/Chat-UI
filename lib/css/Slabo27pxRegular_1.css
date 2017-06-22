@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Slabo27pxRegular_1';
+    src: url('fonts/Slabo27pxRegular_1.eot');
+    src: url('fonts/Slabo27pxRegular_1.eot') format('embedded-opentype'),
+         url('fonts/Slabo27pxRegular_1.woff2') format('woff2'),
+         url('fonts/Slabo27pxRegular_1.woff') format('woff'),
+         url('fonts/Slabo27pxRegular_1.ttf') format('truetype'),
+         url('fonts/Slabo27pxRegular_1.svg#Slabo27pxRegular_1') format('svg');
+}
